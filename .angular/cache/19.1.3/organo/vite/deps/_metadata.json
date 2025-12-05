@@ -1,49 +1,58 @@
 {
-  "hash": "ee88c101",
-  "configHash": "ee824736",
+  "hash": "ecdc5d34",
+  "configHash": "620842fa",
   "lockfileHash": "46ee9411",
-  "browserHash": "e4175736",
+  "browserHash": "6e90b52a",
   "optimized": {
     "@angular/common": {
       "src": "../../../../../../node_modules/@angular/common/fesm2022/common.mjs",
       "file": "@angular_common.js",
-      "fileHash": "a50902ca",
+      "fileHash": "39c34d43",
+      "needsInterop": false
+    },
+    "@angular/common/http": {
+      "src": "../../../../../../node_modules/@angular/common/fesm2022/http.mjs",
+      "file": "@angular_common_http.js",
+      "fileHash": "b239d4e0",
       "needsInterop": false
     },
     "@angular/core": {
       "src": "../../../../../../node_modules/@angular/core/fesm2022/core.mjs",
       "file": "@angular_core.js",
-      "fileHash": "6123b7b5",
+      "fileHash": "03cda579",
       "needsInterop": false
     },
     "@angular/forms": {
       "src": "../../../../../../node_modules/@angular/forms/fesm2022/forms.mjs",
       "file": "@angular_forms.js",
-      "fileHash": "61011802",
+      "fileHash": "598a647d",
       "needsInterop": false
     },
     "@angular/platform-browser": {
       "src": "../../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
       "file": "@angular_platform-browser.js",
-      "fileHash": "0d3ce6e0",
+      "fileHash": "06bab53a",
       "needsInterop": false
     },
     "@angular/platform-browser/animations/async": {
       "src": "../../../../../../node_modules/@angular/platform-browser/fesm2022/animations/async.mjs",
       "file": "@angular_platform-browser_animations_async.js",
-      "fileHash": "297affaa",
+      "fileHash": "896c040f",
       "needsInterop": false
     },
     "@angular/router": {
       "src": "../../../../../../node_modules/@angular/router/fesm2022/router.mjs",
       "file": "@angular_router.js",
-      "fileHash": "88be1b23",
+      "fileHash": "c61451cf",
       "needsInterop": false
     }
   },
   "chunks": {
-    "chunk-B4NEMHDD": {
-      "file": "chunk-B4NEMHDD.js"
+    "chunk-ALFMVNFK": {
+      "file": "chunk-ALFMVNFK.js"
+    },
+    "chunk-L25X6HFJ": {
+      "file": "chunk-L25X6HFJ.js"
     },
     "browser-GMXIRZUL": {
       "file": "browser-GMXIRZUL.js"
