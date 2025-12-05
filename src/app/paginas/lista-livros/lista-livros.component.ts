@@ -41,7 +41,7 @@ export class ListaLivrosComponent implements OnInit {
 
   ngOnInit() {
     this.livroService.obterLivros().subscribe((livros: Livro[]) => {
-      this.livros = this.livros;
+      this.livros = livros;
       console.log(this.livros);
     });
     //this.organizarLivrosPorGenero();

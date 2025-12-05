@@ -7,10 +7,11 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class LivroService {
-  private API_URL = "http://localhost:3000/livros";
+   private API_URL = "http://localhost:3000/livros"
+
   constructor(private httpClient: HttpClient) { }
 
-  obterLivros(): Observable<Livro[]>{
+  obterLivros(): Observable<Livro[]> {
     return this.httpClient.get<Livro[]>(this.API_URL);
   }
 }
